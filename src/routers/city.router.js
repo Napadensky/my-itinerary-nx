@@ -1,7 +1,6 @@
-const { Router } = require('express');
-const { check } = require('express-validator');
 const { cityDelete, cityList, cityUpdate, cityCreate } = require('../controllers/city.controller');
 const { cityChecks, checkErrors } = require('../errors');
+const { Router } = require('express');
 const router = Router();
 
 router
