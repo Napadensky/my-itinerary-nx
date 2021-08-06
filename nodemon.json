@@ -1,0 +1,22 @@
+{
+  "watch": [
+    "src/"
+  ],
+  "ext": "js,json",
+  "delay": "3",
+  "env": {
+    "URI_DB": "mongodb+srv://admin:1234@bootcamp-n-x.udgzf.mongodb.net/my-itinerary?retryWrites=true&w=majority",
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  },
+  "ignore": [
+    "*.test.ts",
+    "dist",
+    "node_modules",
+    ".git"
+  ],
+  "execMap": {
+    "js": "node",
+    "ts": "ts-node"
+  }
+}
